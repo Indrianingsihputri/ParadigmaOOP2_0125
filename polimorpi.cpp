@@ -18,5 +18,10 @@ public:
     void pesan() override
     {
         cout << "pesan dari Joko." << endl;
-    }   
+    }
+};
+
+class lia : public seseorang
+{
+    
 };
