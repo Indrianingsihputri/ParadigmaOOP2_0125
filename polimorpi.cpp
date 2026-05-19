@@ -23,5 +23,10 @@ public:
 
 class lia : public seseorang
 {
-public:   
+public:
+    //override pesan dari class seseorang
+    void pesan() override
+    {
+        cout << "pesan dari Lia." << endl;
+    } 
 };
