@@ -5,7 +5,7 @@ class seseorang
 {
 public:
     //virtual void pesan() = 0;
-    virtual void perkenalan()
+    virtual void pesan()
     {
         cout << "Saya adalah seseorang." << endl;
     }
@@ -13,5 +13,10 @@ public:
 
 class joko : public seseorang
 {
-    
+public:
+    //override pesan dari class seseorang
+    void pesan() override
+    {
+        cout << "pesan dari Joko." << endl;
+    }   
 };
