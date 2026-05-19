@@ -10,3 +10,8 @@ public:
         cout << "Saya adalah seseorang." << endl;
     }
 };
+
+class joko : public seseorang
+{
+    
+};
