@@ -30,3 +30,8 @@ public:
         cout << "pesan dari Lia." << endl;
     } 
 };
+
+int main()
+{
+    
+}
