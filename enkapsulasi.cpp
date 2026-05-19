@@ -30,4 +30,6 @@ int main()
     cout << "Saklar No 1: " << lampuRumah.getSaklarNo(1) << endl;
     cout << "Saklar No 2: " << lampuRumah.getSaklarNo(2) << endl;
     cout << "Saklar No 3: " << lampuRumah.getSaklarNo(3) << endl;
+
+    return 0;
 }
